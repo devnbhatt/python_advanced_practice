@@ -4,7 +4,7 @@ class Student:
         self.marks = marks
 
     def check_pass_fail(self):
-        if self.marks >= 40:
+        if self.marks >= 35:
             print(self.name, "has", self.marks, "marks")
             return True
         else:
